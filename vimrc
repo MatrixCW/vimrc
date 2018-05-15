@@ -41,7 +41,7 @@ function! Formatonsave()
   let l:formatdiff = 1
   py3f /usr/share/clang/clang-format-3.8/clang-format.py
 endfunction
-autocmd BufWritePre *.h,*.cc,*.cpp,*.py call Formatonsave()
+autocmd BufWritePre *.h,*.cc,*.cpp call Formatonsave()
 
 set colorcolumn=80
 
