@@ -85,3 +85,4 @@ nmap <F2> :call GotoJump()<CR>
 set laststatus=2
 
 autocmd BufWritePre *.py :%s/\s\+$//e
+set paste
